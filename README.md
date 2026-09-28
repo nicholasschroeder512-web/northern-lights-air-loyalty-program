@@ -63,7 +63,7 @@ GROUP BY enrollment_month;
 
 ### Dashboard
 
-![Promotion Performance](dashboard/Promotion Vs. Historical Enrollments.png)
+![Promotion Performance](dashboard/promotion_vs_historical_enrollments.png)
 
 ---
 
