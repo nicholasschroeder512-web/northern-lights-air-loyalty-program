@@ -208,4 +208,3 @@ However, points redemption remained nearly unchanged despite substantially highe
 
 These findings suggest that future loyalty analysis should consider both **customer acquisition and post-enrollment behavior**, rather than evaluating promotions solely by the number of new members.
 
-> **Note:** This analysis is observational. Differences between the 2018 Promotion cohort and historical customers should be interpreted as associations rather than proof that the promotion caused the observed changes.
