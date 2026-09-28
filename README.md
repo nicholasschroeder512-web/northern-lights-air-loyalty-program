@@ -1,4 +1,3 @@
-# northern-lights-air-loyalty-program
 # Northern Lights Air Loyalty Program Analysis
 
 ## Project Overview
@@ -113,7 +112,7 @@ GROUP BY enrollment_year;
 
 ### Dashboard
 
-![Customer Engagement](images/customer-engagement.png)
+![Customer Engagement](dashboard/customer_engagement.png)
 
 ---
 
@@ -143,7 +142,7 @@ DIVIDE(
 
 ### Dashboard
 
-![Customer Value and Segments](images/customer-value-segments.png)
+![Customer Value and Segments](dashboard/customer_value_&_segments.png)
 
 ---
 
