@@ -26,6 +26,47 @@ The analysis focused on:
 - **Python / Pandas / Jupyter Notebook** — data loading, SQL environment, and CSV preparation
 
 ---
+## Data Dictionary
+
+The analysis uses two primary datasets: **Customer Loyalty History** and **Customer Flight Activity**.
+
+### Customer Loyalty History
+
+| Field | Description |
+|---|---|
+| `loyalty_number` | Customer's unique loyalty number |
+| `country` | Country of residence |
+| `province` | Province of residence |
+| `city` | City of residence |
+| `postal_code` | Postal code of residence |
+| `gender` | Customer gender |
+| `education` | Highest education level |
+| `salary` | Annual income |
+| `marital_status` | Marital status (Single, Married, Divorced) |
+| `loyalty_card` | Loyalty card status (Star, Nova, Aurora) |
+| `clv` | Customer lifetime value — total invoice value for all flights ever booked by the member |
+| `enrollment_type` | Enrollment type (Standard / 2018 Promotion) |
+| `enrollment_year` | Year the member enrolled in the loyalty program |
+| `enrollment_month` | Month the member enrolled in the loyalty program |
+| `cancellation_year` | Year the member cancelled their membership |
+| `cancellation_month` | Month the member cancelled their membership |
+
+### Customer Flight Activity
+
+| Field | Description |
+|---|---|
+| `loyalty_number` | Customer's unique loyalty number |
+| `year` | Year of the activity period |
+| `month` | Month of the activity period |
+| `total_flights` | Total flights booked during the period |
+| `distance` | Flight distance traveled during the period (km) |
+| `points_accumulated` | Loyalty points accumulated during the period |
+| `points_redeemed` | Loyalty points redeemed during the period |
+| `dollar_cost_points_redeemed` | Canadian-dollar equivalent of points redeemed during the period |
+
+The two datasets are connected through `loyalty_number`, which serves as the unique customer identifier.
+
+---
 
 # Analysis & Key Findings
 
